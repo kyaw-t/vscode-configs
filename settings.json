@@ -29,8 +29,7 @@
     "backgroundColor": "#131315"
   },
   "vscode_custom_css.imports": [
-    "file:///Users/kyaw/.vscode-custom-css/custom.css",
-    "file:///Users/kyaw/.cursor/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    "file:///Users/kyaw/.vscode/custom.css"
   ],
   "apc.stylesheet": {
     ".monaco-dialog-modal-block": {
@@ -137,6 +136,27 @@
       }
     }
   },
+  "yaml.customTags": [
+    "!Base64 scalar",
+    "!Cidr scalar",
+    "!And sequence",
+    "!Equals sequence",
+    "!If sequence",
+    "!Not sequence",
+    "!Or sequence",
+    "!Condition scalar",
+    "!FindInMap sequence",
+    "!GetAtt scalar",
+    "!GetAtt sequence",
+    "!GetAZs scalar",
+    "!ImportValue scalar",
+    "!Join sequence",
+    "!Select sequence",
+    "!Split sequence",
+    "!Sub scalar",
+    "!Transform mapping",
+    "!Ref scalar",
+  ],
   "breadcrumbs.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": false,
@@ -2461,7 +2481,6 @@
   "markdown-preview-enhanced.mermaidTheme": "dark",
   "markdown-preview-enhanced.previewTheme": "monokai.css",
   "prettier.configPath": "~/.prettierrc",
-  "problems.decorations.enabled": false,
   "problems.showCurrentInStatus": true,
   "python.defaultInterpreterPath": "/Users/kyaw/opt/anaconda3/envs",
   "reactSnippets.settings.prettierEnabled": true,
@@ -2471,9 +2490,6 @@
   "update.mode": "none",
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": 1,
-  "workbench.preferredDarkColorTheme": "amamiya",
-  "workbench.preferredLightColorTheme": "Visual Studio Light",
-  "workbench.sideBar.location": "right",
   "workbench.tree.indent": 12,
   "workbench.tree.renderIndentGuides": "always",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
@@ -2855,13 +2871,16 @@
     "symbolIcon.typeParameterForeground": "#a6accd",
     "symbolIcon.unitForeground": "#a6accd",
     "symbolIcon.variableForeground": "#add7ff",
-    "tab.activeBackground": "#eaeaed10",
+    "tab.activeBackground": "#eaeaed19",
     "tab.activeForeground": "#e4f0fb",
-    "tab.activeModifiedBorder": "#add7ff",
+    "tab.activeModifiedBorder": "#ff0e0e00",
     "tab.border": "#00000000",
+    "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#0a0a0a",
     "tab.inactiveForeground": "#767c9d",
     "tab.inactiveModifiedBorder": "#add7ff80",
+    "tab.unfocusedActiveBorder": "#00000000",
+    "tab.unfocusedActiveBorderTop": "#0000",
     "tab.lastPinnedBorder": "#00000000",
     "tab.unfocusedActiveBackground": "#0a0a0a",
     "tab.unfocusedActiveForeground": "#a6accd",
@@ -2932,15 +2951,25 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "leetcode.workspaceFolder": "/Users/kyaw/projects/leetcode",
-  "cursor.cpp.disabledLanguages": [
-    "plaintext",
-    "markdown",
-    "scminput"
-  ],
   "workbench.settings.applyToAllProfiles": [
     "workbench.colorCustomizations"
   ],
   "workbench.activityBar.location": "top",
   "workbench.activityBar.orientation": "vertical",
-  "workbench.settings.openDefaultKeybindings": true
+  "workbench.settings.openDefaultKeybindings": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.sideBar.location": "right",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "leetcode.showDescription": "In File Comment",
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.defaultLanguage": "golang",
+  "leetcode.hint.commentDescription": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.SSH.remotePlatform": {
+    "coder-vscode.hatjq5osebsns.pit-1.try.coder.app--kyaw-t--test": "linux"
+  },
+  "remote.SSH.connectTimeout": 1800
 }

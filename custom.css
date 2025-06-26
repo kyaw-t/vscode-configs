@@ -19,7 +19,6 @@
 }
 
 .editor-actions {
-  height: 1.75rem !important;
 }
 
 .editor-widget {
@@ -83,17 +82,16 @@
   border-radius: 0px 0px 16px 16px !important;
 }
 
-.tabs-container {
-  padding-bottom: 0.5rem !important;
-}
-
 .tab-label {
   line-height: 1.75rem !important;
 }
-
 .tab {
   height: 1.75rem !important;
 }
+..monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container{
+  height: 1.75rem;
+}
+
 
 .titlebar-left {
   width: 0px !important;
@@ -150,4 +148,8 @@
 
 .quick-input-list .monaco-list-rows{
   background: none !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container { 
+  align-items: center;
 }
