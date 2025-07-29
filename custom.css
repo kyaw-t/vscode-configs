@@ -33,9 +33,9 @@
   border-radius: 16px !important;
 }
 
-.editor-widget.find-widget.visible{
+.editor-widget.find-widget.visible {
   border-radius: 16px !important;
-  box-shadow: 0 20px 20px rgba(0,0,0,0.4) !important;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4) !important;
   margin-top: 10% !important;
   height: 50px !important;
   width: 550px !important;
@@ -45,7 +45,7 @@
   border: 1px solid rgba(128, 128, 128, 0.2) !important;
 }
 
-.monaco-editor .find-widget>.button.codicon-widget-close {
+.monaco-editor .find-widget > .button.codicon-widget-close {
   top: unset;
 }
 
@@ -54,13 +54,13 @@
   border-radius: 16px !important;
   padding: 0 12px 16px 12px;
   margin-top: 10% !important;
-  border: 1px solid #2D2D2D !important;
+  border: 1px solid #2d2d2d !important;
 }
 
 .quick-input-widget.show-file-icons .quick-input-header {
   padding: 0.1px !important;
   border: 0px;
-  border-bottom: 1px solid #2D2D2D !important;
+  border-bottom: 1px solid #2d2d2d !important;
 }
 
 .quick-input-widget.show-file-icons .monaco-inputbox {
@@ -88,10 +88,15 @@
 .tab {
   height: 1.75rem !important;
 }
-..monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container{
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container {
   height: 1.75rem;
 }
-
 
 .titlebar-left {
   width: 0px !important;
@@ -134,22 +139,40 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5) !important;
 }
 
-.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+.monaco-workbench
+  .part.titlebar
+  > .titlebar-container
+  > .titlebar-center
+  > .window-title
+  > .command-center
+  .action-item.command-center-center {
   width: fit-content;
   font-weight: bolder;
   padding: 0px 12px 0px 8px;
 }
 
-.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-icon {
+.monaco-workbench
+  .part.titlebar
+  > .titlebar-container
+  > .titlebar-center
+  > .window-title
+  > .command-center
+  .action-item.command-center-center
+  .action-item.command-center-quick-pick
+  .search-icon {
   visibility: hidden;
   width: 0px;
-  
 }
 
-.quick-input-list .monaco-list-rows{
+.quick-input-list .monaco-list-rows {
   background: none !important;
 }
 
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container { 
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container {
   align-items: center;
 }
